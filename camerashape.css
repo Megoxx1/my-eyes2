@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text within header */
+}
+
+.logo-container {
+    margin-bottom: 20px; /* Add space between logo and navigation */
+}
+
+header img {
+    width: 250px; /* Set width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add space between navigation and button */
+}
+
+
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Square container for the camera feed */
+.square {
+    max-width: 100%; /* Make the square container responsive */
+    width: 400px; /* Fallback width for larger screens */
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Button to switch between cameras */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
